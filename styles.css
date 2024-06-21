@@ -21,3 +21,12 @@
     max-width: 500px; /* Adjust the width as needed */
     margin: 0 auto; /* Center the embed */
 }
+
+.tag{
+    color: #76ABAE;
+}
+
+.date{
+    color: #526D82;
+}
+
