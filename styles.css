@@ -1,0 +1,23 @@
+#header-text{
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: #EEEEEE ;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #526D82;
+}
+.nav-link{
+    color: #526D82;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #e9eaed;
+}
+
+.instagram-embed {
+    max-width: 500px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the embed */
+}
