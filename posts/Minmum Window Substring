@@ -1,0 +1,137 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css" />
+
+    
+
+</head>
+
+
+
+<body style="background-color: #222831;">
+  
+  <section id="header">
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <img src="../images/Self Image.jpg" alt="Umesh's image" height="50px" class="rounded me-3">
+          <span class="fs-5" id="header-text" >Umesh Kumar Singh</span>
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="../index.html" class="nav-link" aria-current="page">Resume</a></li>
+          <li class="nav-item"><a href="../hobbies.html" class="nav-link">Hobbies</a></li>
+          <li class="nav-item"><a href="../LeetCode.html" class="nav-link active">LeetCode</a></li>
+          <li class="nav-item"><a href="../aboutMe.html" class="nav-link">About Me</a></li>
+        </ul>
+      </header>
+    </div>
+  </section>
+
+  <section id="question-solution" style="color: #EEEEEE;">
+    <div class="container  mx-4 my-4">
+        
+        <div class="container border rounded-3 py-4 px-3">
+            <article id="312897df-8821-4990-a428-2107c8d0e7a7" class="page sans"><header><div class="page-header-icon undefined"><span class="icon">💻</span></div><h1 class="page-title">Minimum Window Substring</h1><p class="page-description"></p><table class="properties"><tbody><tr class="property-row property-row-status"><th><span class="icon property-icon"><svg role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0" class="typesStatus"><path d="M8.75488 1.02344C8.75488 0.613281 8.41309 0.264648 8.00293 0.264648C7.59277 0.264648 7.25098 0.613281 7.25098 1.02344V3.11523C7.25098 3.51855 7.59277 3.86719 8.00293 3.86719C8.41309 3.86719 8.75488 3.51855 8.75488 3.11523V1.02344ZM3.91504 5.0293C4.20215 5.31641 4.69434 5.32324 4.97461 5.03613C5.26855 4.74902 5.26855 4.25684 4.98145 3.96973L3.53906 2.52051C3.25195 2.2334 2.7666 2.21973 2.47949 2.50684C2.19238 2.79395 2.18555 3.28613 2.47266 3.57324L3.91504 5.0293ZM10.9629 4.01758C10.6826 4.30469 10.6826 4.79688 10.9697 5.08398C11.2568 5.37109 11.749 5.36426 12.0361 5.07715L13.4854 3.62793C13.7725 3.34082 13.7725 2.84863 13.4785 2.55469C13.1982 2.27441 12.7061 2.27441 12.4189 2.56152L10.9629 4.01758ZM15.0234 8.78906C15.4336 8.78906 15.7822 8.44727 15.7822 8.03711C15.7822 7.62695 15.4336 7.28516 15.0234 7.28516H12.9385C12.5283 7.28516 12.1797 7.62695 12.1797 8.03711C12.1797 8.44727 12.5283 8.78906 12.9385 8.78906H15.0234ZM0.975586 7.28516C0.56543 7.28516 0.223633 7.62695 0.223633 8.03711C0.223633 8.44727 0.56543 8.78906 0.975586 8.78906H3.07422C3.48438 8.78906 3.83301 8.44727 3.83301 8.03711C3.83301 7.62695 3.48438 7.28516 3.07422 7.28516H0.975586ZM12.0361 10.9902C11.749 10.71 11.2568 10.71 10.9629 10.9971C10.6826 11.2842 10.6826 11.7764 10.9697 12.0635L12.4258 13.5127C12.7129 13.7998 13.2051 13.793 13.4922 13.5059C13.7793 13.2256 13.7725 12.7266 13.4854 12.4395L12.0361 10.9902ZM2.52051 12.4395C2.22656 12.7266 2.22656 13.2188 2.50684 13.5059C2.79395 13.793 3.28613 13.7998 3.57324 13.5127L5.02246 12.0703C5.31641 11.7832 5.31641 11.291 5.03613 11.0039C4.74902 10.7168 4.25684 10.71 3.96973 10.9971L2.52051 12.4395ZM8.75488 12.9658C8.75488 12.5557 8.41309 12.207 8.00293 12.207C7.59277 12.207 7.25098 12.5557 7.25098 12.9658V15.0576C7.25098 15.4609 7.59277 15.8096 8.00293 15.8096C8.41309 15.8096 8.75488 15.4609 8.75488 15.0576V12.9658Z"></path></svg></span>Status</th><td><span class="status-value select-value-color-green"><div class="status-dot status-dot-color-green"></div>Done</span></td></tr><tr class="property-row property-row-multi_select"><th><span class="icon property-icon"><img src="https://www.notion.so/icons/tag_gray.svg" style="width:14px;height:14px"/></span>Tags</th><td><span class="selected-value select-value-color-brown">DSA</span><span class="selected-value select-value-color-default">LeetCode</span><span class="selected-value select-value-color-orange">Sliding Window</span></td></tr></tbody></table></header><div class="page-body"><h1 id="3c150663-bc3f-4e33-a83a-fff8489d769d" class="">Problem Statement</h1><p id="fdf7225d-0b0c-4db2-ad34-188c0d9783b9" class="">Given two strings <code>s</code> and <code>t</code> of lengths <code>m</code> and <code>n</code> respectively, return the minimum window substring of <code>s</code> such that every character in <code>t</code> (including duplicates) is included in the window. If there is no such substring, return the empty string &quot;&quot;.</p><p id="e202dd5d-9b05-47c8-83af-0d877a52178c" class="">The test cases will be generated such that the answer is unique.</p><h2 id="9f8bfe62-ff68-44ee-8db2-843d30cc1912" class="">Examples</h2><h3 id="14102e13-3276-43ce-a662-ba0ed43a050e" class="">Example 1:</h3><p id="7d5b795d-4bf9-4731-8fba-5c64ca69ad2a" class=""><strong>Input:</strong> <code>s = &quot;ADOBECODEBANC&quot;</code>, <code>t = &quot;ABC&quot;</code></p><p id="3f8c3a0e-06d2-4e44-90dd-4f16929c26e8" class=""><strong>Output:</strong> <code>&quot;BANC&quot;</code></p><p id="d25fe25d-2ed3-4263-b574-a93374f206c9" class=""><strong>Explanation:</strong> The minimum window substring &quot;BANC&quot; includes &#x27;A&#x27;, &#x27;B&#x27;, and &#x27;C&#x27; from string <code>t</code>.</p><h3 id="d659dd78-0400-4ef0-a8d5-1bf809208922" class="">Example 2:</h3><p id="30e81b3a-145d-4006-a707-2a1c54066a75" class=""><strong>Input:</strong> <code>s = &quot;a&quot;</code>, <code>t = &quot;a&quot;</code></p><p id="553f64fa-4541-4d04-bec6-5bdaddf7c844" class=""><strong>Output:</strong> <code>&quot;a&quot;</code></p><p id="d8fad8d8-e1a0-48e1-b9e8-edc66b66a2b8" class=""><strong>Explanation:</strong> The entire string <code>s</code> is the minimum window.</p><h3 id="4bf45fa6-537f-4d01-a495-a79d5e45daa3" class="">Example 3:</h3><p id="d2146114-8e1a-4afb-af78-3b10e9014df2" class=""><strong>Input:</strong> <code>s = &quot;a&quot;</code>, <code>t = &quot;aa&quot;</code></p><p id="451f522e-067b-4830-ae7c-e9ca01d0fe5d" class=""><strong>Output:</strong> <code>&quot;&quot;</code></p><p id="45a8a0ed-5e92-4ac6-867c-7fae35d84907" class=""><strong>Explanation:</strong> Both &#x27;a&#x27;s from <code>t</code> must be included in the window. Since the largest window of <code>s</code> only has one &#x27;a&#x27;, return an empty string.</p><h2 id="25c5144a-a7c2-477c-be81-1380552da120" class="">Constraints:</h2><ul id="dae7fc78-a4f6-4dde-bbfd-03ec4f48b0a1" class="bulleted-list"><li style="list-style-type:disc"><code>m == s.length</code></li></ul><ul id="2c5d9492-a04d-4136-96ce-3bdb8dd6f256" class="bulleted-list"><li style="list-style-type:disc"><code>n == t.length</code></li></ul><ul id="05e71b19-4255-412e-88e6-b69d21ed8adc" class="bulleted-list"><li style="list-style-type:disc"><code>1 &lt;= m, n &lt;= 10^5</code></li></ul><ul id="19c166df-096e-4df7-a096-2d8598567943" class="bulleted-list"><li style="list-style-type:disc"><code>s</code> and <code>t</code> consist of uppercase and lowercase English letters.</li></ul><h2 id="8be3f9dc-e889-4c0a-897a-0d4e9c53a551" class="">Follow-up</h2><p id="b27e6750-bcbb-4afd-976e-62d989fe66f9" class="">Could you find an algorithm that runs in <code>O(m + n)</code> time?</p><p id="6c5789f0-6d43-47c6-8413-8aba1d571cba" class=""></p>
+            </div>
+        </div>
+
+        <div class="container border rounded pt-3 my-4">
+        </p><p id="541ac124-8e69-496a-8856-30e1b2e35ec0" class="">
+        </p><h1 id="92d43258-fcd4-4b83-b7bb-17e6519b1960" class="">Solution :</h1><p id="ce9e9ee3-8557-4b93-91dc-ee6cb473393b" class="">Here&#x27;s a detailed explanation and the C++ code to solve the problem of finding the minimum window substring of <code>s</code> that includes all characters of <code>t</code>.</p><h3 id="d40b4d5a-4940-4a12-8750-5c1a2103b605" class="">Problem Explanation</h3><p id="afdd0a2f-437a-48ca-bbe9-1caa4c707767" class="">Given two strings <code>s</code> and <code>t</code>, we need to find the minimum window in <code>s</code> that contains all characters of <code>t</code> (including duplicates). If there is no such window, we return an empty string.</p><p id="5552903b-890e-40ac-bb7a-bb742ba13f9c" class="">The solution needs to be efficient, ideally running in O(m + n) time where <code>m</code> and <code>n</code> are the lengths of <code>s</code> and <code>t</code>, respectively.</p><h3 id="664ab2ea-00be-4b7d-8311-caa872c17ecf" class="">Approach</h3><ol type="1" id="b5ba2398-bc30-4db1-8698-efbc0b0c0e18" class="numbered-list" start="1"><li><strong>Frequency Count</strong>:<ul id="44bc414c-df72-4570-8814-4ec73dca5b57" class="bulleted-list"><li style="list-style-type:disc">Use two hash maps: one for the frequency of characters in <code>t</code> (<code>required</code>), and one for the current window (<code>windowCounts</code>).</li></ul></li></ol><ol type="1" id="6a422ef0-76e8-4410-9224-5bb450175675" class="numbered-list" start="2"><li><strong>Sliding Window</strong>:<ul id="2c5af65a-76fc-4d54-b702-19119868a294" class="bulleted-list"><li style="list-style-type:disc">Use two pointers (<code>left</code> and <code>right</code>) to represent the current window.</li></ul><ul id="682ae6a5-c05b-49a1-8084-3432903bccbd" class="bulleted-list"><li style="list-style-type:disc">Expand the window by moving the <code>right</code> pointer and include characters in the <code>windowCounts</code>.</li></ul><ul id="17ea2c5c-2308-45ae-a6aa-cfa0dc4b88a3" class="bulleted-list"><li style="list-style-type:disc">Once the window contains all characters from <code>t</code> (checked using the <code>required</code> and <code>windowCounts</code>), try to contract the window by moving the <code>left</code> pointer to find the minimum length window.</li></ul></li></ol><ol type="1" id="18324e8c-7e22-46e3-9c83-a746d5185f63" class="numbered-list" start="3"><li><strong>Check Validity</strong>:<ul id="11cace02-2225-4473-b183-5f6d2e4e0613" class="bulleted-list"><li style="list-style-type:disc">A window is valid if for every character in <code>t</code>, the window contains at least as many instances of that character as <code>t</code> does.</li></ul></li></ol><ol type="1" id="0c4d30c3-264a-4222-afa7-55261250f208" class="numbered-list" start="4"><li><strong>Update Minimum Window</strong>:<ul id="01400cdc-12a6-4b75-bd07-07b7115364b3" class="bulleted-list"><li style="list-style-type:disc">Track the smallest window that satisfies the condition.</li></ul></li></ol><h3 id="ddc8451d-617a-4218-8755-ad43f888a4ff" class="">C++ Code</h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="92a06236-6555-4aae-8abe-46f775256209" class="code"><code class="language-C++" style="white-space:pre-wrap;word-break:break-all">#include &lt;iostream&gt;
+        #include &lt;string&gt;
+        #include &lt;unordered_map&gt;
+        #include &lt;climits&gt;
+
+        using namespace std;
+
+        string minWindow(string s, string t) {
+            if (s.empty() || t.empty()) return &quot;&quot;;
+
+            // Dictionary to store the frequency of characters in t
+            unordered_map&lt;char, int&gt; required;
+            for (char c : t) {
+                required[c]++;
+            }
+
+            // Number of unique characters in t that need to be present in the window
+            int requiredSize = required.size();
+            int formed = 0;  // To keep track of how many unique characters in t are currently in the window
+
+            // Dictionary to store the frequency of characters in the current window
+            unordered_map&lt;char, int&gt; windowCounts;
+
+            int left = 0, right = 0;
+            int minLength = INT_MAX, minLeft = 0;
+
+            // Start sliding the window
+            while (right &lt; s.size()) {
+                char c = s[right];
+                windowCounts[c]++;
+
+                // If the current character&#x27;s frequency matches the required frequency
+                if (required.find(c) != required.end() &amp;&amp; windowCounts[c] == required[c]) {
+                    formed++;
+                }
+
+                // Try to contract the window until it ceases to be &#x27;desirable&#x27;
+                while (left &lt;= right &amp;&amp; formed == requiredSize) {
+                    c = s[left];
+
+                    // Update the minimum window size
+                    if (right - left + 1 &lt; minLength) {
+                        minLength = right - left + 1;
+                        minLeft = left;
+                    }
+
+                    windowCounts[c]--;
+                    if (required.find(c) != required.end() &amp;&amp; windowCounts[c] &lt; required[c]) {
+                        formed--;
+                    }
+                    left++;
+                }
+                right++;
+            }
+
+            return minLength == INT_MAX ? &quot;&quot; : s.substr(minLeft, minLength);
+        }
+
+        int main() {
+            string s1 = &quot;ADOBECODEBANC&quot;;
+            string t1 = &quot;ABC&quot;;
+            cout &lt;&lt; &quot;Result for s1: &quot; &lt;&lt; minWindow(s1, t1) &lt;&lt; endl;
+
+            string s2 = &quot;a&quot;;
+            string t2 = &quot;a&quot;;
+            cout &lt;&lt; &quot;Result for s2: &quot; &lt;&lt; minWindow(s2, t2) &lt;&lt; endl;
+
+            string s3 = &quot;a&quot;;
+            string t3 = &quot;aa&quot;;
+            cout &lt;&lt; &quot;Result for s3: &quot; &lt;&lt; minWindow(s3, t3) &lt;&lt; endl;
+
+            return 0;
+        }
+        </code></pre><h3 id="217943a4-7af4-4684-99f6-573256aa8487" class="">Explanation of the Code</h3><ol type="1" id="a6aa9c5a-6b81-468b-b78e-730982fae40c" class="numbered-list" start="1"><li><strong>Frequency Maps</strong>:<ul id="b37c5438-c7ce-468c-8b13-0e4c637c305d" class="bulleted-list"><li style="list-style-type:disc"><code>required</code>: Stores the frequency of characters in <code>t</code>.</li></ul><ul id="0a35a118-5564-4455-a0a9-faab887084f1" class="bulleted-list"><li style="list-style-type:disc"><code>windowCounts</code>: Tracks the frequency of characters in the current window of <code>s</code>.</li></ul></li></ol><ol type="1" id="b3347750-d82c-48ec-88d8-29b396125e15" class="numbered-list" start="2"><li><strong>Initialization</strong>:<ul id="253b55be-77b8-44a7-82af-bb6633f36564" class="bulleted-list"><li style="list-style-type:disc">Initialize pointers <code>left</code> and <code>right</code> to 0.</li></ul><ul id="8b7ead55-339c-4be7-8701-3554858c2147" class="bulleted-list"><li style="list-style-type:disc">Variables <code>formed</code> and <code>requiredSize</code> help keep track of how many characters in <code>t</code> are satisfied in the current window.</li></ul></li></ol><ol type="1" id="30d69c28-a274-40fc-879b-049f850ae08f" class="numbered-list" start="3"><li><strong>Expand the Window</strong>:<ul id="a72eccc6-eeba-4818-bbb5-d40d2da989dc" class="bulleted-list"><li style="list-style-type:disc">Move the <code>right</code> pointer to include new characters in the window and update <code>windowCounts</code>.</li></ul></li></ol><ol type="1" id="45912d51-869c-45f2-b87a-8c505f8d6163" class="numbered-list" start="4"><li><strong>Contract the Window</strong>:<ul id="2c65f9b5-b573-4208-b29f-e4eebf0e4237" class="bulleted-list"><li style="list-style-type:disc">Once the window contains all required characters (<code>formed == requiredSize</code>), move the <code>left</code> pointer to reduce the size of the window while ensuring it still contains all characters of <code>t</code>.</li></ul></li></ol><ol type="1" id="7ae7b024-e530-4854-8eb9-4a282dc09151" class="numbered-list" start="5"><li><strong>Update the Result</strong>:<ul id="ca6379ae-d270-4419-8d4a-37364af949f8" class="bulleted-list"><li style="list-style-type:disc">Track the smallest window that meets the criteria and update the result accordingly.</li></ul></li></ol><ol type="1" id="5dd40c64-c0d7-4903-adb0-59eac5d48b65" class="numbered-list" start="6"><li><strong>Return Result</strong>:<ul id="f84f97e6-298a-49b0-8807-30116143f4d4" class="bulleted-list"><li style="list-style-type:disc">If a valid window is found, return the substring of <code>s</code> corresponding to the smallest window. If not, return an empty string.</li></ul></li></ol><p id="0005a480-8775-4ad5-97d6-f82b651c2391" class="">This algorithm efficiently finds the minimum window containing all characters of <code>t</code> in <code>s</code> with a time complexity of O(m + n), making it suitable for large input sizes.</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span>
+
+        </div>
+
+    </div>
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
